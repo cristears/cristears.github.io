@@ -34,43 +34,43 @@
   text-align: center;
   vertical-align: middle;
 }
-.day .madrid {
+.day.madrid {
   border-top: 2px solid #c4e427;
   border-bottom: 2px solid #c4e427;
 }
-.day .toledo {
+.day.toledo {
   border-top: 2px solid #5cd7aa;
   border-bottom: 2px solid #5cd7aa;
 }
-.day .fatima {
+.day.fatima {
   border-top: 2px solid #00a758;
   border-bottom: 2px solid #00a758;
 }
-.day .cabodaroca {
+.day.cabodaroca {
   border-top: 2px solid #00accf;
   border-bottom: 2px solid #00accf;
 }
-.day .lisboa {
+.day.lisboa {
   border-top: 2px solid #407cf3;
   border-bottom: 2px solid #407cf3;
 }
-.day .sevilla {
+.day.sevilla {
   border-top: 2px solid #880693;
   border-bottom: 2px solid #880693;
 }
-.day .cordoba {
+.day.cordoba {
   border-top: 2px solid #b40044;
   border-bottom: 2px solid #b40044;
 }
-.day .granada {
+.day.granada {
   border-top: 2px solid #eb131e;
   border-bottom: 2px solid #eb131e;
 }
-.day .barcelona {
+.day.barcelona {
   border-top: 2px solid #fbb400;
   border-bottom: 2px solid #fbb400;
 }
-.day .montserrat {
+.day.montserrat {
   border-top: 2px solid #7f4c43;
   border-bottom: 2px solid #7f4c43;
 }
@@ -100,58 +100,58 @@
   text-align: center;
   vertical-align: middle;
 }
-.location .madrid p, .location .toledo p, .location .fatima p,
-.location .cabodaroca p, .location .lisboa p, .location .sevilla p,
-.location .cordoba p, .location .granada p, .location .barcelona p,
-.location .montserrat p {
+.location.madrid p, .location.toledo p, .location.fatima p,
+.location.cabodaroca p, .location.lisboa p, .location.sevilla p,
+.location.cordoba p, .location.granada p, .location.barcelona p,
+.location.montserrat p {
   color: white;
 }
-.location .madrid {
+.location.madrid {
   border-top: 2px solid #c4e427;
   border-bottom: 2px solid #c4e427;
   background-color: #c4e427;
 }
-.location .toledo {
+.location.toledo {
   border-top: 2px solid #5cd7aa;
   border-bottom: 2px solid #5cd7aa;
   background-color: #5cd7aa;
 }
-.location .fatima {
+.location.fatima {
   border-top: 2px solid #00a758;
   border-bottom: 2px solid #00a758;
   background-color: #00a758;
 }
-.location .cabodaroca {
+.location.cabodaroca {
   border-top: 2px solid #00accf;
   border-bottom: 2px solid #00accf;
   background-color: #00accf;
 }
-.location .lisboa {
+.location.lisboa {
   border-top: 2px solid #407cf3;
   border-bottom: 2px solid #407cf3;
   background-color: #407cf3;
 }
-.location .sevilla {
+.location.sevilla {
   border-top: 2px solid #880693;
   border-bottom: 2px solid #880693;
   background-color: #880693;
 }
-.location .cordoba {
+.location.cordoba {
   border-top: 2px solid #b40044;
   border-bottom: 2px solid #b40044;
   background-color: #b40044;
 }
-.location .granada {
+.location.granada {
   border-top: 2px solid #eb131e;
   border-bottom: 2px solid #eb131e;
   background-color: #eb131e;
 }
-.location .barcelona {
+.location.barcelona {
   border-top: 2px solid #fbb400;
   border-bottom: 2px solid #fbb400;
   background-color: #fbb400;
 }
-.location .montserrat {
+.location.montserrat {
   border-top: 2px solid #7f4c43;
   border-bottom: 2px solid #7f4c43;
   background-color: #7f4c43;
