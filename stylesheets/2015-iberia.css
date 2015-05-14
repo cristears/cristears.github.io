@@ -1,12 +1,12 @@
 /** 상단 부분 **/
-.travel {
+body.tag-iberia .travel {
   margin-bottom: 20px;
   display: block;
   width: 100%;
   max-width: 100%;
   text-align: center;
 }
-.travel h1 {
+body.tag-iberia .travel h1 {
   color: #5ba4e5;
   font-weight: normal !important;
   font-family: Open Sans, sans-serif;
@@ -15,7 +15,7 @@
   font-size: 3em;
   line-height: 0.9em;
 }
-.travel p {
+body.tag-iberia .travel p {
   margin: 0;
   padding: 0;
   color: #888;
@@ -23,7 +23,7 @@
   line-height: 0.98em;
 }
 /** 일차 및 지역(도시) 표시 **/
-.day {
+body.tag-iberia .day {
   width: 30%;
   border-top: 2px solid #eaf2f6;
   border-bottom: 2px solid #eaf2f6;
@@ -34,47 +34,47 @@
   text-align: center;
   vertical-align: middle;
 }
-.day.madrid {
+body.tag-iberia .day.madrid {
   border-top: 2px solid #c4e427;
   border-bottom: 2px solid #c4e427;
 }
-.day.toledo {
+body.tag-iberia .day.toledo {
   border-top: 2px solid #5cd7aa;
   border-bottom: 2px solid #5cd7aa;
 }
-.day.fatima {
+body.tag-iberia .day.fatima {
   border-top: 2px solid #00a758;
   border-bottom: 2px solid #00a758;
 }
-.day.cabodaroca {
+body.tag-iberia .day.cabo-da-roca {
   border-top: 2px solid #00accf;
   border-bottom: 2px solid #00accf;
 }
-.day.lisboa {
+body.tag-iberia .day.lisboa {
   border-top: 2px solid #407cf3;
   border-bottom: 2px solid #407cf3;
 }
-.day.sevilla {
+body.tag-iberia .day.sevilla {
   border-top: 2px solid #880693;
   border-bottom: 2px solid #880693;
 }
-.day.cordoba {
+body.tag-iberia .day.cordoba {
   border-top: 2px solid #b40044;
   border-bottom: 2px solid #b40044;
 }
-.day.granada {
+body.tag-iberia .day.granada {
   border-top: 2px solid #eb131e;
   border-bottom: 2px solid #eb131e;
 }
-.day.barcelona {
+body.tag-iberia .day.barcelona {
   border-top: 2px solid #fbb400;
   border-bottom: 2px solid #fbb400;
 }
-.day.montserrat {
+body.tag-iberia .day.montserrat {
   border-top: 2px solid #7f4c43;
   border-bottom: 2px solid #7f4c43;
 }
-.day p.nth-day {
+body.tag-iberia .day p.nth-day {
   display: inline-block;
   font-family: Open Sans, sans-serif;
   font-size: 1.5em;
@@ -82,13 +82,13 @@
   margin: 0;
   padding: 0;
 }
-.day p.date {
+body.tag-iberia .day p.date {
   display: inline-block;
   font-family: Open Sans, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
   margin: 0;
   padding: 0;
 }
-.location {
+body.tag-iberia .location {
   border-top: 2px solid #eaf2f6;
   border-bottom: 2px solid #eaf2f6;
   width: 66%;
@@ -100,63 +100,69 @@
   text-align: center;
   vertical-align: middle;
 }
-.location.madrid p, .location.toledo p, .location.fatima p,
-.location.cabodaroca p, .location.lisboa p, .location.sevilla p,
-.location.cordoba p, .location.granada p, .location.barcelona p,
-.location.montserrat p {
+body.tag-iberia .location.madrid p,
+body.tag-iberia .location.toledo p,
+body.tag-iberia .location.fatima p,
+body.tag-iberia .location.cabo-da-roca p,
+body.tag-iberia .location.lisboa p,
+body.tag-iberia .location.sevilla p,
+body.tag-iberia .location.cordoba p,
+body.tag-iberia .location.granada p,
+body.tag-iberia .location.barcelona p,
+body.tag-iberia .location.montserrat p {
   color: white;
 }
-.location.madrid {
+body.tag-iberia .location.madrid {
   border-top: 2px solid #c4e427;
   border-bottom: 2px solid #c4e427;
   background-color: #c4e427;
 }
-.location.toledo {
+body.tag-iberia .location.toledo {
   border-top: 2px solid #5cd7aa;
   border-bottom: 2px solid #5cd7aa;
   background-color: #5cd7aa;
 }
-.location.fatima {
+body.tag-iberia .location.fatima {
   border-top: 2px solid #00a758;
   border-bottom: 2px solid #00a758;
   background-color: #00a758;
 }
-.location.cabodaroca {
+body.tag-iberia .location.cabo-da-roca {
   border-top: 2px solid #00accf;
   border-bottom: 2px solid #00accf;
   background-color: #00accf;
 }
-.location.lisboa {
+body.tag-iberia .location.lisboa {
   border-top: 2px solid #407cf3;
   border-bottom: 2px solid #407cf3;
   background-color: #407cf3;
 }
-.location.sevilla {
+body.tag-iberia .location.sevilla {
   border-top: 2px solid #880693;
   border-bottom: 2px solid #880693;
   background-color: #880693;
 }
-.location.cordoba {
+body.tag-iberia .location.cordoba {
   border-top: 2px solid #b40044;
   border-bottom: 2px solid #b40044;
   background-color: #b40044;
 }
-.location.granada {
+body.tag-iberia .location.granada {
   border-top: 2px solid #eb131e;
   border-bottom: 2px solid #eb131e;
   background-color: #eb131e;
 }
-.location.barcelona {
+body.tag-iberia .location.barcelona {
   border-top: 2px solid #fbb400;
   border-bottom: 2px solid #fbb400;
   background-color: #fbb400;
 }
-.location.montserrat {
+body.tag-iberia .location.montserrat {
   border-top: 2px solid #7f4c43;
   border-bottom: 2px solid #7f4c43;
   background-color: #7f4c43;
 }
-.location p.spanish {
+body.tag-iberia .location p.spanish {
   display: inline-block;
   font-family: Open Sans, sans-serif;
   font-size: 1.5em;
@@ -164,7 +170,7 @@
   margin: 0;
   padding: 0;
 }
-.location p.korean {
+body.tag-iberia .location p.korean {
   display: inline-block;
   font-family: Open Sans, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
   font-weight: bold;
@@ -172,7 +178,7 @@
   padding: 0;
 }
 @media only screen and (max-width: 480px) {
-.day {
+body.tag-iberia .day {
   float: none;
   margin-right: 0;
   width: auto;
@@ -180,7 +186,7 @@
   border-bottom: none;
   padding: 5px 0;
   }
-.location {
+body.tag-iberia .location {
   float: none;
   margin-left: 0;
   width: auto;
@@ -189,49 +195,51 @@
 }
 /** 일정표 **/
 /* 표의 홀수번째 행을 회색으로 표시하지 않도록 설정 */
-table tbody > tr:nth-child(odd) > td,
-table tbody > tr:nth-child(odd) > th {
+body.tag-iberia table tbody > tr:nth-child(odd) > td,
+body.tag-iberia table tbody > tr:nth-child(odd) > th {
     background-color: transparent;
 }
 /* 일정표 서식 */
-.calendar {
+body.tag-iberia .calendar {
   width: 100%;
   border: none;
   border-spacing: 0;
 }
-.calendar th, td {
+body.tag-iberia .calendar th, 
+body.tag-iberia .calendar td {
   width: 14%;
   border-bottom: 1px solid #eaf2f6;
   box-sizing: border-box;
 }
-.calendar th {
+body.tag-iberia .calendar th {
   text-align: center;
   border-bottom: 2px solid #eaf2f6;
   font-weight: 900;
   line-height: 1em;
   padding: 2px 0 5px 0;
 }
-.calendar td {
+body.tag-iberia .calendar td {
   padding: 5px 0;
   min-height: 30px;
   vertical-align: top;
 }
-.calendar td.disabled span.date, td.disabled p {
+body.tag-iberia .calendar td.disabled span.date, 
+body.tag-iberia .calendar td.disabled p {
   color: #888;
 }
-.calendar td div {
+body.tag-iberia .calendar td div {
   padding: 0 1px;
   min-height: 80px;
 }
-.calendar td:last-child div {
+body.tag-iberia .calendar td:last-child div {
   border-right: none;
 }
-.calendar td span.date {
+body.tag-iberia .calendar td span.date {
   display: block;
   font-size: 80%;
   line-height: 1em;
 }
-.calendar td p.area {
+body.tag-iberia .calendar td p.area {
   padding: 1px 2px;
   text-align: center;
   font-size: 0.8em;
@@ -239,12 +247,12 @@ table tbody > tr:nth-child(odd) > th {
   line-height: 1em;
   margin: 3px 0 5px 0;
 }
-.calendar td p {
+body.tag-iberia .calendar td p {
   padding: 0;
   margin: 0;
   line-height: 1em;
 }
-.calendar td a {
+body.tag-iberia .calendar td a {
   background: #5ba4e5;
   color: #fff;
   border-radius: 5px;
@@ -257,54 +265,54 @@ table tbody > tr:nth-child(odd) > th {
   font-weight: bold;
   text-decoration: none;
 }
-.calendar td a.madrid {
+body.tag-iberia .calendar td a.madrid {
   background: #c4e427;
 }
-.calendar td a.toledo {
+body.tag-iberia .calendar td a.toledo {
   background: #5cd7aa;
 }
-.calendar td a.fatima {
+body.tag-iberia .calendar td a.fatima {
   background: #00a758;
 }
-.calendar td a.cabodaroca {
+body.tag-iberia .calendar td a.cabo-da-roca {
   background: #00accf;
 }
-.calendar td a.lisboa {
+body.tag-iberia .calendar td a.lisboa {
   background: #407cf3;
 }
-.calendar td a.sevilla {
+body.tag-iberia .calendar td a.sevilla {
   background: #880693;
 }
-.calendar td a.cordoba {
+body.tag-iberia .calendar td a.cordoba {
   background: #b40044;
 }
-.calendar td a.granada {
+body.tag-iberia .calendar td a.granada {
   background: #eb131e;
 }
-.calendar td a.barcelona {
+body.tag-iberia .calendar td a.barcelona {
   background: #fbb400;
 }
-.calendar td a.montserrat {
+body.tag-iberia .calendar td a.montserrat {
   background: #7f4c43;
 }
-.calendar td a:hover {
+body.tag-iberia .calendar td a:hover {
   background: #1a1813;
   border-bottom: none;
 }
 @media only screen and (max-width: 480px) {
-  .calendar {
+  body.tag-iberia .calendar {
     font-size: 0.5em;
   }
-  .calendar td a {
+  body.tag-iberia .calendar td a {
     border-radius: 4px;
   }
 }
 /** 글 목록 **/
-ol.list {
+body.tag-iberia ol.list {
   color: #5ba4e5;
   font-weight: bold;
 }
-ol.list li .list-item {
+body.tag-iberia ol.list li .list-item {
   color: #3a4145;
   font-weight: normal;
 }
